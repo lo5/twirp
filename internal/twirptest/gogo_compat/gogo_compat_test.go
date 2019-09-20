@@ -16,7 +16,7 @@ package gogo_compat
 import (
 	"testing"
 
-	"github.com/twitchtv/twirp/internal/descriptors"
+	"github.com/lo5/twirp/internal/descriptors"
 )
 
 func TestCompilation(t *testing.T) {

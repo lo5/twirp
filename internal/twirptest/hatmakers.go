@@ -19,7 +19,7 @@ import (
 	"net/http/httptest"
 	"time"
 
-	"github.com/twitchtv/twirp"
+	"github.com/lo5/twirp"
 )
 
 type hatmaker func(ctx context.Context, s *Size) (*Hat, error)

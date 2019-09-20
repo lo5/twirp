@@ -3,7 +3,7 @@
 
 /*
 Package snake_case_names is a generated twirp stub package.
-This code was generated with github.com/twitchtv/twirp/protoc-gen-twirp v5.8.0.
+This code was generated with github.com/lo5/twirp/protoc-gen-twirp v5.8.0.
 
 Test that protoc-gen-twirp follows the same behavior as protoc-gen-go
 for converting RPCs and message names from snake case to camel case.
@@ -24,8 +24,8 @@ import strconv "strconv"
 
 import jsonpb "github.com/golang/protobuf/jsonpb"
 import proto "github.com/golang/protobuf/proto"
-import twirp "github.com/twitchtv/twirp"
-import ctxsetters "github.com/twitchtv/twirp/ctxsetters"
+import twirp "github.com/lo5/twirp"
+import ctxsetters "github.com/lo5/twirp/ctxsetters"
 
 // Imports only used by utility functions:
 import io "io"

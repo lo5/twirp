@@ -6,7 +6,7 @@ package x
 import (
 	fmt "fmt"
 	proto "github.com/golang/protobuf/proto"
-	_ "github.com/twitchtv/twirp/internal/twirptest/importmapping/y"
+	_ "github.com/lo5/twirp/internal/twirptest/importmapping/y"
 	math "math"
 )
 
