@@ -1,6 +1,6 @@
 # Retool: Vendor thy tools! #
 
-[![Build Status](https://travis-ci.org/twitchtv/retool.svg?branch=master)](https://travis-ci.org/twitchtv/retool)
+[![Build Status](https://travis-ci.org/lo5/retool.svg?branch=master)](https://travis-ci.org/lo5/retool)
 [![Windows Build status](https://ci.appveyor.com/api/projects/status/06x2vd5nh683iscu/branch/master?svg=true&passingText=Windows%20build%20passing&pendingText=Windows%20build%20pending&failingText=Windows%20build%20failing)](https://ci.appveyor.com/project/spenczar/retool/branch/master)
 
 
@@ -40,7 +40,7 @@ The expected workflow is something like this:
 
 Install retool:
 ```sh
-go get github.com/twitchtv/retool
+go get github.com/lo5/retool
 ```
 
 Add a tool dependency:

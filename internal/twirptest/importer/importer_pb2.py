@@ -13,16 +13,16 @@ from google.protobuf import descriptor_pb2
 _sym_db = _symbol_database.Default()
 
 
-from github.com.twitchtv.twirp.internal.twirptest.importable import importable_pb2 as github_dot_com_dot_twitchtv_dot_twirp_dot_internal_dot_twirptest_dot_importable_dot_importable__pb2
+from github.com.lo5.twirp.internal.twirptest.importable import importable_pb2 as github_dot_com_dot_lo5_dot_twirp_dot_internal_dot_twirptest_dot_importable_dot_importable__pb2
 
 
 DESCRIPTOR = _descriptor.FileDescriptor(
   name='importer.proto',
   package='twirp.internal.twirptest.importer',
   syntax='proto3',
-  serialized_pb=_b('\n\x0eimporter.proto\x12!twirp.internal.twirptest.importer\x1aHgithub.com/twitchtv/twirp/internal/twirptest/importable/importable.proto2b\n\x04Svc2\x12Z\n\x04Send\x12(.twirp.internal.twirptest.importable.Msg\x1a(.twirp.internal.twirptest.importable.MsgB\nZ\x08importerb\x06proto3')
+  serialized_pb=_b('\n\x0eimporter.proto\x12!twirp.internal.twirptest.importer\x1aHgithub.com/lo5/twirp/internal/twirptest/importable/importable.proto2b\n\x04Svc2\x12Z\n\x04Send\x12(.twirp.internal.twirptest.importable.Msg\x1a(.twirp.internal.twirptest.importable.MsgB\nZ\x08importerb\x06proto3')
   ,
-  dependencies=[github_dot_com_dot_twitchtv_dot_twirp_dot_internal_dot_twirptest_dot_importable_dot_importable__pb2.DESCRIPTOR,])
+  dependencies=[github_dot_com_dot_lo5_dot_twirp_dot_internal_dot_twirptest_dot_importable_dot_importable__pb2.DESCRIPTOR,])
 
 
 
@@ -46,8 +46,8 @@ _SVC2 = _descriptor.ServiceDescriptor(
     full_name='twirp.internal.twirptest.importer.Svc2.Send',
     index=0,
     containing_service=None,
-    input_type=github_dot_com_dot_twitchtv_dot_twirp_dot_internal_dot_twirptest_dot_importable_dot_importable__pb2._MSG,
-    output_type=github_dot_com_dot_twitchtv_dot_twirp_dot_internal_dot_twirptest_dot_importable_dot_importable__pb2._MSG,
+    input_type=github_dot_com_dot_lo5_dot_twirp_dot_internal_dot_twirptest_dot_importable_dot_importable__pb2._MSG,
+    output_type=github_dot_com_dot_lo5_dot_twirp_dot_internal_dot_twirptest_dot_importable_dot_importable__pb2._MSG,
     options=None,
   ),
 ])

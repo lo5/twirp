@@ -69,7 +69,7 @@ Twirp uses Github releases. To make a new release:
     origin --tags`
  5. Run `make release_gen` to generate release assets in the `release`
     directory. This requires Docker to be installed.
- 6. Go to Github https://github.com/twitchtv/twirp/releases and
+ 6. Go to Github https://github.com/lo5/twirp/releases and
     "Draft a new release".
  7. Make sure to document changes, specially when upgrade instructions are
     needed.
@@ -84,6 +84,6 @@ opensource-codeofconduct@amazon.com with any additional questions or comments.
 
 ## Licensing
 
-See the [LICENSE](https://github.com/twitchtv/twirp/blob/master/LICENSE) file for our project's licensing. We will ask you to confirm the licensing of your contribution.
+See the [LICENSE](https://github.com/lo5/twirp/blob/master/LICENSE) file for our project's licensing. We will ask you to confirm the licensing of your contribution.
 
 We may ask you to sign a [Contributor License Agreement (CLA)](http://en.wikipedia.org/wiki/Contributor_License_Agreement) for larger changes.
