@@ -26,7 +26,7 @@ import proto "github.com/golang/protobuf/proto"
 import twirp "github.com/lo5/twirp"
 import ctxsetters "github.com/lo5/twirp/ctxsetters"
 
-import twirp_internal_twirptest_importable "github.com/lo5/twirp/internal/twirptest/importable"
+import twirp_internal_twirptest_importable "github.com/lo5/twirp/external/twirptest/importable"
 
 // Imports only used by utility functions:
 import io "io"

@@ -25,9 +25,9 @@ import (
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/protoc-gen-go/descriptor"
 	plugin "github.com/golang/protobuf/protoc-gen-go/plugin"
-	"github.com/lo5/twirp/internal/gen"
-	"github.com/lo5/twirp/internal/gen/stringutils"
-	"github.com/lo5/twirp/internal/gen/typemap"
+	"github.com/lo5/twirp/external/gen"
+	"github.com/lo5/twirp/external/gen/stringutils"
+	"github.com/lo5/twirp/external/gen/typemap"
 )
 
 func main() {

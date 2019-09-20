@@ -33,7 +33,7 @@ import (
 	pkgerrors "github.com/pkg/errors"
 
 	"github.com/lo5/twirp"
-	"github.com/lo5/twirp/internal/descriptors"
+	"github.com/lo5/twirp/external/descriptors"
 )
 
 func TestServeJSON(t *testing.T) {

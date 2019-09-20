@@ -23,7 +23,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/lo5/twirp/internal/contextkeys"
+	"github.com/lo5/twirp/external/contextkeys"
 )
 
 func WithMethodName(ctx context.Context, name string) context.Context {

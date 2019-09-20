@@ -18,7 +18,7 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/lo5/twirp/internal/contextkeys"
+	"github.com/lo5/twirp/external/contextkeys"
 )
 
 // MethodName extracts the name of the method being handled in the given

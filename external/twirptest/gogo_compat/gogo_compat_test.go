@@ -16,7 +16,7 @@ package gogo_compat
 import (
 	"testing"
 
-	"github.com/lo5/twirp/internal/descriptors"
+	"github.com/lo5/twirp/external/descriptors"
 )
 
 func TestCompilation(t *testing.T) {

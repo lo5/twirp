@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import "github.com/lo5/twirp/internal/twirptest/no_package_name/no_package_name.proto";
+import "github.com/lo5/twirp/external/twirptest/no_package_name/no_package_name.proto";
 
 // Test to make sure that importing a proto file without a package name doesn't
 // break, even if importing proto file lacks a package name.
